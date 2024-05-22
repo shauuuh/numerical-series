@@ -3,11 +3,11 @@ import '../stylesheets/FormComponent.css';
 
 function FormComponent(props){
   const [inputNumber, setInputNumber] = useState('');
-  // Function to handle input changes
+  // Functions to handle input changes and submits 
   const handleChange = e => {
     setInputNumber(e.target.value);
   };
-  // Function to handle clicks
+
   const handleClick = e => {
     e.preventDefault();
     const n = parseInt(inputNumber);
