@@ -28,3 +28,9 @@ body {
   margin: 10px;
   border-radius: 26px;
 }
+
+@media only screen and (max-width: 768px) {
+  .main-content{
+    width: 80%;
+  }
+}

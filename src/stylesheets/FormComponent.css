@@ -29,3 +29,12 @@
   text-transform: capitalize;
 }
 
+@media only screen and (max-width: 768px) {
+  .form-component {
+    flex-direction: column;
+  }
+
+  .serie-input {
+    width: 80%;
+  } 
+}

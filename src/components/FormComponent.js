@@ -23,12 +23,12 @@ function FormComponent(props){
     <input
       className="serie-input"
       type="text"
-      placeholder="Ingresa un numero"
+      placeholder="Enter a number"
       name="texto"
       onChange={handleChange}
     />
     <button className="serie-button">
-      Calcular
+      Calculate
     </button>
   </form>
   );
