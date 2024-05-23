@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Numerical Series
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es una aplicación web para obtener el término n de varias series numéricas. Está desarrollado utilizando JavaScript y React.
 
-## Available Scripts
+## Instalación
 
-In the project directory, you can run:
+Para ejecutar este proyecto en tu máquina local, primero clona este repositorio: [https://github.com/shauuuh/numerical-series]
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Luego, navega al directorio del proyecto e instala las dependencias utilizando npm:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+cd numerical-series
 
-### `npm test`
+## `npm install`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Ejecución
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Una vez que hayas instalado las dependencias, puedes ejecutar la aplicación utilizando el siguiente comando:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Esto iniciará la aplicación en modo de desarrollo. Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver la aplicación.
 
-### `npm run eject`
+## Pruebas Unitarias
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Este proyecto incluye pruebas unitarias para garantizar su correcto funcionamiento. Las pruebas se realizan utilizando Jest. Puedes ejecutar las pruebas con el siguiente comando:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Estructura del Proyecto
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+El proyecto sigue una estructura estándar de una aplicación React creada con create-react-app. Aquí está una descripción breve de los archivos y carpetas más importantes:
 
-## Learn More
+- `src/`: Contiene el código fuente de la aplicación.
+- `src/components`: Contiene el código fuente de los componentes react.
+- `src/stylesheets`: Contiene el código fuente de las hojas de estilo de los componentes.
+- `src/test/utils`: Contiene el código fuente de las pruebas unitarias.
+- `public/`: Contiene archivos estáticos y el archivo index.html.
+- `package.json`: Archivo de configuración de npm con las dependencias y scripts del proyecto.
+- `README.md`: Este archivo que estás leyendo.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contribución
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+¡Las contribuciones son bienvenidas! Si encuentras un error o tienes una idea para mejorar este proyecto, siéntete libre de abrir un issue o enviar un pull request.
 
-### Code Splitting
+## Licencia
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este proyecto está bajo la Licencia [MIT](https://opensource.org/licenses/MIT).
